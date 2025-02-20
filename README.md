@@ -1,6 +1,6 @@
 Food Ordering System
 
-📌 Project Description
+📌 Project Description :
 The Food Ordering System is a web-based application that allows customers to order food online, track their orders, and manage their profiles. The system also includes an admin panel to manage food items, categories, orders, and users.
 
 
