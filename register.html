@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background: #f8f8f8; }
+        .container { width: 300px; margin: auto; background: white; padding: 20px; border-radius: 5px; }
+        input, button { width: 100%; padding: 10px; margin: 5px 0; }
+        button { background: #ffd700; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Register</h2>
+        <form action="register.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="text" name="phone" placeholder="Phone Number" required>
+            <textarea name="address" placeholder="Address" required></textarea>
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+    </div>
+</body>
+</html>
