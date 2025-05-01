@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = trim($_POST['email']);
     $password = $_POST['password'];
 
-    // ✅ Check admin credentials
+    // ✅ Check admin credentials..
     $stmt = $pdo->prepare("SELECT * FROM admin WHERE email = ?");
     $stmt->execute([$email]);
     $admin = $stmt->fetch(PDO::FETCH_ASSOC);
