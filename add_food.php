@@ -7,7 +7,7 @@ if (!isset($_SESSION['admin_id'])) {
     die("❌ Access denied. <a href='adminlogin.php'>Admin Login</a>");
 }
 
-// ✅ Handle form submission to add food item
+// ✅ Handle form submission to add food items
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if (!isset($_POST['name'], $_POST['description'], $_POST['price'], $_POST['category'], $_FILES['image'])) {
         die("❌ Missing required fields. <a href='manage_food.php'>Try again</a>");
