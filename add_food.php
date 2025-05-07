@@ -2,7 +2,7 @@
 session_start();
 include 'db_connection.php';
 
-// ✅ Ensure that admin is logged in
+// ✅ Ensure that admin is logged in...
 if (!isset($_SESSION['admin_id'])) {
     die("❌ Access denied. <a href='adminlogin.php'>Admin Login</a>");
 }
