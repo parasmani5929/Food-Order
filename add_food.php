@@ -41,3 +41,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     die("❌ Invalid request. <a href='manage_food.php'>Go back</a>");
 }
 ?>
+
