@@ -7,7 +7,7 @@ if (!isset($_SESSION['admin_id'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <title>Admin Dashboard</title>
 </head>
 <body>
@@ -23,3 +23,4 @@ if (!isset($_SESSION['admin_id'])) {
 
 </body>
 </html>
+
