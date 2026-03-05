@@ -9,7 +9,7 @@ if (!isset($_SESSION['admin_id'])) {
 <html lang="en">
 <head> 
     <title>Admin Dashboard</title>
-</head>
+</head> 
 <body>
 
 <h1>Welcome,Surya G<?php echo $_SESSION['admin_name']; ?>!</h1>
@@ -23,4 +23,5 @@ if (!isset($_SESSION['admin_id'])) {
 
 </body>
 </html>
+
 
