@@ -4,7 +4,7 @@ if (!isset($_SESSION['admin_id'])) {
     die("❌ Access denied. <a href='adminlogin.html'>Admin Login</a>");
 }
 ?> 
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head> 
