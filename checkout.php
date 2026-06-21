@@ -2,7 +2,7 @@
 session_start();
 include 'db_connection.php';
 
-// ✅ Ensure user is logged in
+// ✅ Ensure user is logged in 
 if (!isset($_SESSION['user_id'])) {
     die("❌ You must be logged in to place an order. <a href='login.html'>Login here</a>");
 }
