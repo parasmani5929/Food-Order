@@ -5,7 +5,7 @@ include 'db_connection.php'; // Include database connection
 $stmt = $pdo->query("SELECT * FROM food_items");
 $foods = $stmt->fetchAll();
 
-// Display food items dynamically
+// Display food items dynamically 
 foreach ($foods as $food) {
     echo "<div class='food-card'>";
     echo "<img src='images/" . $food['image'] . "' alt='" . $food['name'] . "'>";
