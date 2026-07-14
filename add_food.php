@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'db_connection.php';
+include 'db_connection.php';               
  
 // ✅ Ensure that admin is logged in...
 if (!isset($_SESSION['admin_id'])) {
