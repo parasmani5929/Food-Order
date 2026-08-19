@@ -7,7 +7,7 @@ if (!isset($_SESSION['admin_id'])) {
     die("❌ Access denied.");
 }
 
-// ✅ Get Food ID from URL
+// ✅ Get Food ID from URL  
 if (!isset($_GET['id'])) {
     die("❌ Invalid request.");
 }
