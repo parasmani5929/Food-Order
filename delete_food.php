@@ -8,7 +8,7 @@ if (!isset($_SESSION['admin_id'])) {
 }
 
 // ✅ Get Food ID from URL  
-if (!isset($_GET['id'])) {
+if (!isset($_GET['id'])) {      
     die("❌ Invalid request.");
 }
 
